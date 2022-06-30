@@ -1,0 +1,12 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #CCA112;
+
+    
+}
+
+#container_principal{
+    background-image: url(Assets/background_main_yellow.jpg);
+    display: flex;
+    flex-direction: column;
+}

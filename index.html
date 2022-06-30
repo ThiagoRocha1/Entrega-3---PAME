@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+ 
+    <head>
+
+        <title>BigMark</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" type="text/css" href="Styles/Header.css"/>
+        <link rel="stylesheet" type="text/css" href="Styles/Main.css"/>
+        <link rel="stylesheet" type="text/css" href="Styles/Footer.css"/>
+
+    </head>
+
+    <body>
+
+        <div id="container_principal">
+            <!--Header -->
+        <div id="header">
+            <!--Login/Cadastro-->
+            <div id="dados">
+
+                <input class="data_button" type="button" value="Login"/>
+                <input class="data_button" type="button" value="Cadastro"/>
+
+            </div>
+
+            <!--Procurar-->
+            <label id="procurar">
+                <img style="width:20px; height:20px"  src="Assets/lupa.png"/>
+                <b style="text-shadow: black 0.03em 0.03em">Procurar:</b>
+                <input id="input">
+            </label> 
+
+            <!--Delivery-->   
+            <div class="delivery_div" style="display: flex;align-items: center;">
+            <a><img src="Assets/delivery.png" style="width:50px;height:50px" alt="Delivery imagem: Flaticon.com"/></a>
+            Delivery
+            </div>
+            <!--Meus Pedidos-->   
+            <div class="meus_pedidos_div" style="display: flex;align-items: center;">
+                <a><img src="Assets/meus_pedidos.png" style="width:50px;height:50px" alt="Lista: Flaticon.com"/></a>
+                Meus Pedidos
+                </div>
+
+                <!--Produtos Artesanais-->   
+            <div class="padaria_div" style="display: flex;align-items: center;">
+            <a><img src="Assets/padaria.png" style="width:50px;height:50px" alt="Padaria imagem: Flaticon.com"/></a>
+            Produtos Artesanais
+            </div>
+            
+            
+        </div>
+        <!--Parte do meio (Main)-->
+        <div id="main">
+            <!--Listagem Categoria-->
+            <div id="lista_categoria">
+
+                <!--                    Lista de categorias                             -->
+
+                <div class="categoria">
+                    <img src="Assets/mercado.png" style="height:50px;width:50px">
+                    <b>Mercado</b>
+                </div>
+               
+                <div class="categoria">
+                    <img src="Assets/padaria.png" style="height:50px;width:50px">
+                    <b>Padaria</b>
+                </div>
+
+                <div class="categoria">
+                    <img src="Assets/limpeza.png" style="height:50px;width:50px">
+                    <b>Limpeza</b>
+                </div>
+
+                <div class="categoria">
+                    <img src="Assets/bebidas-alcoolicas.png" style="height:50px;width:50px">
+                    <b>Bebida</b>
+                </div>
+
+                <div class="categoria">
+                    <img src="Assets/estetica.png" style="height:50px;width:50px">
+                    <b>Estética</b>
+                </div>
+
+                <div class="categoria">
+                    <img src="Assets/hortifruit.png" style="height:50px;width:50px">
+                    <b>Frutas&Vegetais</b>
+                </div>
+
+                <!--                    Lista de categorias                             -->
+
+            </div>
+            <!--Listagem de Produtos-->
+            <div id="listagem_produtos">
+
+                <div class="produtos">
+                    <img src="Assets/refrigerante.png" style="height:85px;width:85px">
+                    <p>Produto:Refrigerante</p>
+                    <p>Marca:Coca-Cola</p>
+                    <p>Categoria:Bebidas</p>
+                    <p>Preço:R$ 8.00</p>
+                </div>
+
+                <div class="produtos">
+                    <img src="Assets/pao.png" style="height:85px;width:85px">
+                    <p>Produto: Pão</p>
+                    <p>Marca:Panco</p>
+                    <p>Categoria:Mercado</p>
+                    <p>Preço:R$ 9.00</p>
+                </div>
+
+                <div class="produtos">
+                    
+                    <img src="Assets/shampoo.png" style="height:85px;width:85px">
+                    <p>Produto:Shampoo</p>
+                    <p>Marca:Pantene</p>
+                    <p>Categoria:Beleza</p>
+                    <p>Preço:R$ 13.00</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div id="footer">
+            
+            <a><img src="Assets/instagram.png" class="info_contato"></a>
+            BigMark é uma startup fundada em 2021, na região de São Pedro da Serra
+            <img src="Assets/telefone.png" class="info_contato">
+
+        </div>
+
+        </div>
+
+        
+        <script type="text/javascript" src="Header.jsx"></script>
+        <script type="text/javascript" src="Main.jsx"></script>
+        <script type="text/javascript" src="Footer.jsx"></script>
+        
+    </body>
+
+
+</html>

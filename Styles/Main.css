@@ -1,0 +1,62 @@
+#main{
+    
+   
+    width: 100%;
+    height: 550px;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+
+#lista_categoria{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+#categoria{
+    width: 60px;
+    height: 50px;
+    background-color:#CCA112 ;
+    opacity: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    text-shadow: black 0.03em 0.03em;
+
+}
+
+#listagem_produtos{
+    
+    border:#806819;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.produtos{
+    background-color: #CCA112;
+    height: 280px;
+    width: 300px;
+    border-radius: 10%;
+    font-weight: bold;
+    text-shadow: black 0.03em 0.03em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
